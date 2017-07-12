@@ -1,0 +1,32 @@
+{
+  "name": "unqr",
+  "version": "0.0.0",
+  "description": "Progressive unique array element.",
+  "main": "unqr.deploy.js",
+  "support": "unqr.support.js",
+  "authors": [
+    "Richeve S. Bebedor <richeve.bebedor@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "progressive",
+    "unique",
+    "array",
+    "element",
+    "unqr"
+  ],
+  "homepage": "https://github.com/volkovasystems/unqr",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "depher": "^0.36.0",
+    "doubt": "^0.30.0",
+    "een": "^0.21.0",
+    "shft": "^0.4.0"
+  }
+}
