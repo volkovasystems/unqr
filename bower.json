@@ -1,27 +1,33 @@
 {
-	"name": "unqr",
-	"version": "0.1.0",
-	"description": "Progressive unique array element.",
-	"main": "unqr.deploy.js",
-	"support": "unqr.support.js",
-	"authors": [
-		"Richeve S. Bebedor <richeve.bebedor@gmail.com>",
-		"John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>"
-	],
-	"license": "MIT",
-	"keywords": [
-		"progressive",
-		"unique",
-		"array",
-		"element",
-		"unqr"
-	],
-	"homepage": "https://github.com/volkovasystems/unqr",
-	"ignore": [
-		"**/.*",
-		"node_modules",
-		"bower_components",
-		"test",
-		"tests"
-	]
+  "name": "unqr",
+  "version": "0.1.0",
+  "description": "Progressive unique array element.",
+  "main": "unqr.deploy.js",
+  "support": "unqr.support.js",
+  "authors": [
+    "Richeve S. Bebedor <richeve.bebedor@gmail.com>",
+    "John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "progressive",
+    "unique",
+    "array",
+    "element",
+    "unqr"
+  ],
+  "homepage": "https://github.com/volkovasystems/unqr",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "depher": "^0.38.0",
+    "doubt": "^0.34.0",
+    "een": "^0.23.0",
+    "shft": "^0.5.0"
+  }
 }
