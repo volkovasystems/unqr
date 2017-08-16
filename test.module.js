@@ -70,6 +70,18 @@ const path = require( "path" );
 
 describe( "unqr", ( ) => {
 
+	describe( "`[ 1, 2, 3, 4, 5, 6, 4, 3, 2, 2, 1, 6 ].filter( ( value ) => unique( value ) )`", ( ) => {
+		it( "should be equal to [ 1, 2, 3, 4, 5, 6 ]", ( ) => {
+
+			let array = [ 1, 2, 3, 4, 5, 6, 4, 3, 2, 2, 1, 6 ];
+
+			let unique = unqr.bind( [ ] );
+
+			assert.deepEqual( array.filter( ( value ) => unique( value ) ), [ 1, 2, 3, 4, 5, 6 ] );
+
+		} );
+	} );
+
 } );
 
 //: @end-server
@@ -78,6 +90,19 @@ describe( "unqr", ( ) => {
 //: @client:
 
 describe( "unqr", ( ) => {
+
+	describe( "`[ 1, 2, 3, 4, 5, 6, 4, 3, 2, 2, 1, 6 ].filter( ( value ) => unique( value ) )`", ( ) => {
+		it( "should be equal to [ 1, 2, 3, 4, 5, 6 ]", ( ) => {
+
+			let array = [ 1, 2, 3, 4, 5, 6, 4, 3, 2, 2, 1, 6 ];
+
+			let unique = unqr.bind( [ ] );
+
+			assert.deepEqual( array.filter( ( value ) => unique( value ) ), [ 1, 2, 3, 4, 5, 6 ] );
+
+		} );
+	} );
+	
 } );
 
 //: @end-client
