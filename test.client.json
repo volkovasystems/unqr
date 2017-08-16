@@ -1,0 +1,84 @@
+{
+	"state": {
+		"passed": 1,
+		"failed": 0,
+		"skipped": 0
+	},
+	"start": "2017-08-16T05:17:29.940Z",
+	"end": "2017-08-16T05:18:04.154Z",
+	"capabilities": {
+		"browserName": "chrome",
+		"chromeOptions": {
+			"args": [
+				"disable-gpu",
+				"headless"
+			]
+		},
+		"proxy": null
+	},
+	"host": "127.0.0.1",
+	"port": 4444,
+	"baseUrl": "http://localhost",
+	"framework": "mocha",
+	"mochaOpts": {
+		"timeout": 10000,
+		"ui": "bdd"
+	},
+	"suites": [
+		{
+			"name": "unqr",
+			"duration": 0,
+			"start": "2017-08-16T05:18:03.823Z",
+			"tests": [],
+			"hooks": []
+		},
+		{
+			"name": "unqr",
+			"duration": 150,
+			"start": "2017-08-16T05:18:03.823Z",
+			"end": "2017-08-16T05:18:03.973Z",
+			"tests": [],
+			"hooks": [
+				{
+					"start": "2017-08-16T05:18:03.825Z",
+					"end": "2017-08-16T05:18:03.825Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "unqr",
+					"associatedTest": "should be equal to [ 1, 2, 3, 4, 5, 6 ]"
+				},
+				{
+					"start": "2017-08-16T05:18:03.972Z",
+					"end": "2017-08-16T05:18:03.972Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "unqr",
+					"associatedTest": "should be equal to [ 1, 2, 3, 4, 5, 6 ]"
+				},
+				{
+					"start": "2017-08-16T05:18:03.973Z",
+					"end": "2017-08-16T05:18:03.973Z",
+					"duration": 0,
+					"title": "\"after all\" hook",
+					"associatedSuite": "unqr"
+				}
+			]
+		},
+		{
+			"name": "`[ 1, 2, 3, 4, 5, 6, 4, 3, 2, 2, 1, 6 ].filter( ( value ) => unique( value ) )`",
+			"duration": 149,
+			"start": "2017-08-16T05:18:03.824Z",
+			"end": "2017-08-16T05:18:03.973Z",
+			"tests": [
+				{
+					"name": "should be equal to [ 1, 2, 3, 4, 5, 6 ]",
+					"start": "2017-08-16T05:18:03.824Z",
+					"end": "2017-08-16T05:18:03.972Z",
+					"duration": 148,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		}
+	]
+}
