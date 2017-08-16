@@ -102,7 +102,7 @@ describe( "unqr", ( ) => {
 
 		} );
 	} );
-	
+
 } );
 
 //: @end-client
@@ -111,6 +111,30 @@ describe( "unqr", ( ) => {
 //: @bridge:
 
 describe( "unqr", ( ) => {
+
+	let bridgeURL = `file://${ path.resolve( __dirname, "bridge.html" ) }`;
+
+	describe( "`[ 1, 2, 3, 4, 5, 6, 4, 3, 2, 2, 1, 6 ].filter( ( value ) => unique( value ) )`", ( ) => {
+		it( "should be equal to [ 1, 2, 3, 4, 5, 6 ]", ( ) => {
+			//: @ignore:
+			let result = browser.url( bridgeURL ).execute(
+
+				function( ){
+
+					let array = [ 1, 2, 3, 4, 5, 6, 4, 3, 2, 2, 1, 6 ];
+
+					let unique = unqr.bind( [ ] );
+					return JSON.stringify( array.filter( ( value ) => unique( value ) ) );
+
+				}
+
+			).value;
+			//: @end-ignore
+			assert.deepEqual( JSON.parse( result ), [ 1, 2, 3, 4, 5, 6 ] );
+
+		} );
+	} );
+
 } );
 
 //: @end-bridge
