@@ -5,15 +5,15 @@
 		"passes": 1,
 		"pending": 0,
 		"failures": 0,
-		"start": "2017-08-16T05:17:28.741Z",
-		"end": "2017-08-16T05:17:28.755Z",
-		"duration": 14
+		"start": "2017-08-28T08:49:12.574Z",
+		"end": "2017-08-28T08:49:12.587Z",
+		"duration": 13
 	},
 	"tests": [
 		{
 			"title": "should be equal to [ 1, 2, 3, 4, 5, 6 ]",
 			"fullTitle": "unqr `[ 1, 2, 3, 4, 5, 6, 4, 3, 2, 2, 1, 6 ].filter( ( value ) => unique( value ) )` should be equal to [ 1, 2, 3, 4, 5, 6 ]",
-			"duration": 11,
+			"duration": 9,
 			"currentRetry": 0,
 			"err": {}
 		}
@@ -24,7 +24,7 @@
 		{
 			"title": "should be equal to [ 1, 2, 3, 4, 5, 6 ]",
 			"fullTitle": "unqr `[ 1, 2, 3, 4, 5, 6, 4, 3, 2, 2, 1, 6 ].filter( ( value ) => unique( value ) )` should be equal to [ 1, 2, 3, 4, 5, 6 ]",
-			"duration": 11,
+			"duration": 9,
 			"currentRetry": 0,
 			"err": {}
 		}

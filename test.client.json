@@ -4,8 +4,8 @@
 		"failed": 0,
 		"skipped": 0
 	},
-	"start": "2017-08-16T05:17:29.940Z",
-	"end": "2017-08-16T05:18:04.154Z",
+	"start": "2017-08-28T08:49:13.892Z",
+	"end": "2017-08-28T08:49:50.307Z",
 	"capabilities": {
 		"browserName": "chrome",
 		"chromeOptions": {
@@ -28,36 +28,36 @@
 		{
 			"name": "unqr",
 			"duration": 0,
-			"start": "2017-08-16T05:18:03.823Z",
+			"start": "2017-08-28T08:49:49.957Z",
 			"tests": [],
 			"hooks": []
 		},
 		{
 			"name": "unqr",
-			"duration": 150,
-			"start": "2017-08-16T05:18:03.823Z",
-			"end": "2017-08-16T05:18:03.973Z",
+			"duration": 171,
+			"start": "2017-08-28T08:49:49.957Z",
+			"end": "2017-08-28T08:49:50.128Z",
 			"tests": [],
 			"hooks": [
 				{
-					"start": "2017-08-16T05:18:03.825Z",
-					"end": "2017-08-16T05:18:03.825Z",
+					"start": "2017-08-28T08:49:49.959Z",
+					"end": "2017-08-28T08:49:49.959Z",
 					"duration": 0,
 					"title": "\"before each\" hook",
 					"associatedSuite": "unqr",
 					"associatedTest": "should be equal to [ 1, 2, 3, 4, 5, 6 ]"
 				},
 				{
-					"start": "2017-08-16T05:18:03.972Z",
-					"end": "2017-08-16T05:18:03.972Z",
+					"start": "2017-08-28T08:49:50.127Z",
+					"end": "2017-08-28T08:49:50.127Z",
 					"duration": 0,
 					"title": "\"after each\" hook",
 					"associatedSuite": "unqr",
 					"associatedTest": "should be equal to [ 1, 2, 3, 4, 5, 6 ]"
 				},
 				{
-					"start": "2017-08-16T05:18:03.973Z",
-					"end": "2017-08-16T05:18:03.973Z",
+					"start": "2017-08-28T08:49:50.128Z",
+					"end": "2017-08-28T08:49:50.128Z",
 					"duration": 0,
 					"title": "\"after all\" hook",
 					"associatedSuite": "unqr"
@@ -66,15 +66,15 @@
 		},
 		{
 			"name": "`[ 1, 2, 3, 4, 5, 6, 4, 3, 2, 2, 1, 6 ].filter( ( value ) => unique( value ) )`",
-			"duration": 149,
-			"start": "2017-08-16T05:18:03.824Z",
-			"end": "2017-08-16T05:18:03.973Z",
+			"duration": 170,
+			"start": "2017-08-28T08:49:49.958Z",
+			"end": "2017-08-28T08:49:50.128Z",
 			"tests": [
 				{
 					"name": "should be equal to [ 1, 2, 3, 4, 5, 6 ]",
-					"start": "2017-08-16T05:18:03.824Z",
-					"end": "2017-08-16T05:18:03.972Z",
-					"duration": 148,
+					"start": "2017-08-28T08:49:49.958Z",
+					"end": "2017-08-28T08:49:50.126Z",
+					"duration": 168,
 					"state": "pass"
 				}
 			],
